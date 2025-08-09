@@ -1,0 +1,81 @@
+Código,Nat,Resumen,isCapitulo,Capitulo,Subcapítulo
+01,Capítulo,Acondicionamiento del terreno,True,01,
+01.01,Capítulo,Movimiento de tierras en edificación,False,01,01
+01.02,Capítulo,Red de saneamiento horizontal,False,01,02
+01.03,Capítulo,Nivelación,False,01,03
+01.04,Capítulo,Demoliciones,False,01,04
+02,Capítulo,Cimentaciones,True,02,
+02.01,Capítulo,Regularización,False,02,01
+03,Capítulo,Estructuras,True,03,
+03.01,Capítulo,Acero,False,03,01
+03.02,Capítulo,Hormigón armado,False,03,02
+03.03,Capítulo,Fábrica de Labrillo,False,03,03
+04,Capítulo,Fachadas y particiones,True,04,
+04.01,Capítulo,Fachadas ventiladas,False,04,01
+04.02,Capítulo,Fábrica no estructural,False,04,02
+04.03,Capítulo,Defensas,False,04,03
+05,Capítulo,"Carpintería, cerrajería, vidrios y protecciones solares",True,05,
+05.01,Capítulo,Carpintería,False,05,01
+05.02,Capítulo,Puertas de entrada a vivienda,False,05,02
+05.03,Capítulo,Puertas interiores,False,05,03
+05.04,Capítulo,Puertas cortafuegos,False,05,04
+05.05,Capítulo,Puertas de garaje,False,05,05
+05.06,Capítulo,Armarios,False,05,06
+05.07,Capítulo,Protectores solares y oscurecimiento,False,05,07
+05.08,Capítulo,Vidrios,False,05,08
+06,Capítulo,Remates y ayudas,True,06,
+06.01,Capítulo,Remates,False,06,01
+06.02,Capítulo,Ayudas de albañilería,False,06,02
+06.03,Capítulo,Forrados,False,06,03
+06.04,Capítulo,Recibidos,False,06,04
+06.05,Capítulo,Recrecido,False,06,05
+06.06,Capítulo,Limpieza de muro de HA visto,False,06,06
+07,Capítulo,Instalaciones,True,07,
+07.01,Capítulo,Infraestructura de telecomunicaciones,False,07,01
+07.02,Capítulo,Audiovisuales,False,07,02
+07.03,Capítulo,"Calefacción, climatización y A.C.S.",False,07,03
+07.04,Capítulo,Eléctricas,False,07,04
+07.05,Capítulo,Fontanería,False,07,05
+07.06,Capítulo,Contra incendios,False,07,06
+07.07,Capítulo,Evacuación de aguas,False,07,07
+07.08,Capítulo,Transporte,False,07,08
+07.09,Capítulo,Ventilación,False,07,09
+07.10,Capítulo,Iluminación,False,07,10
+08,Capítulo,Aislamientos e impermeabilizaciones,True,08,
+08.01,Capítulo,Aislamientos térmicos,False,08,01
+08.02,Capítulo,Impermeabilizaciones,False,08,02
+08.03,Capítulo,Estanqueidad,False,08,03
+08.04,Capítulo,Drenajes,False,08,04
+09,Capítulo,Cubiertas,True,09,
+09.01,Capítulo,Planas,False,09,01
+09.02,Capítulo,Inclinadas,False,09,02
+09.03,Capítulo,Remates,False,09,03
+10,Capítulo,Revestimientos y trasdosados,True,10,
+10.01,Capítulo,Alicatados,False,10,01
+10.02,Capítulo,Escaleras,False,10,02
+10.03,Capítulo,Pinturas en paramentos interiores,False,10,03
+10.04,Capítulo,Tratamientos superficiales de protección,False,10,04
+10.05,Capítulo,Conglomerados tradicionales,False,10,05
+10.06,Capítulo,Pavimentos,False,10,06
+10.07,Capítulo,Trasdosados,False,10,07
+10.08,Capítulo,Falsos techos,False,10,08
+11,Capítulo,Señalización y equipamiento,True,11,
+11.01,Capítulo,Aparatos sanitarios,False,11,01
+11.02,Capítulo,Cocinas/galerías,False,11,02
+11.03,Capítulo,Buzones,False,11,03
+12,Capítulo,Urbanización interior de la parcela,True,12,
+12.01,Capítulo,Contenciones,False,12,01
+12.02,Capítulo,Pavimentos exteriores,False,12,02
+12.03,Capítulo,Cerramientos exteriores,False,12,03
+13,Capítulo,Gestión de residuos,True,13,
+13.01,Capítulo,Gestión de residuos inertes,False,13,01
+14,Capítulo,Control de calidad y ensayos,True,14,
+14.01,Capítulo,Estructuras de hormigón,False,14,01
+14.02,Capítulo,Estructuras metálicas,False,14,02
+15,Capítulo,Seguridad y salud,True,15,
+15.01,Capítulo,Sistemas de protección colectiva,False,15,01
+15.02,Capítulo,Formación,False,15,02
+15.03,Capítulo,Equipos de protección individual,False,15,03
+15.04,Capítulo,Medicina preventiva y primeros auxilios,False,15,04
+15.05,Capítulo,Instalaciones provisionales de higiene y bienestar,False,15,05
+15.06,Capítulo,Señalización provisional de obras,False,15,06
