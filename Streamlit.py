@@ -160,6 +160,55 @@ totales_cap_long["Resumen"] = pd.Categorical(totales_cap_long["Resumen"], catego
 deltas_cap_long["Resumen"] = pd.Categorical(deltas_cap_long["Resumen"], categories=orden_capitulos, ordered=True)
 
 # -----------------------------
+# 🌍 Totales y Deltas - GLOBAL (sin agrupar por capítulo o subcapítulo)
+# -----------------------------
+st.markdown("---")
+st.subheader("Totales y Deltas - Global (todo el presupuesto)")
+
+# Calcular totales y deltas globales para cada constructora
+global_totales = {
+    c: df[f"{c} € tot"].sum() if f"{c} € tot" in df.columns else 0
+    for c in constructoras
+}
+global_deltas = {
+    c: df[f"Delta {c}"].sum() if f"Delta {c}" in df.columns else 0
+    for c in constructoras
+}
+
+# Crear DataFrames para Plotly
+global_totales_df = pd.DataFrame(list(global_totales.items()), columns=["Constructora", "Total €"])
+global_deltas_df = pd.DataFrame(list(global_deltas.items()), columns=["Constructora", "Delta €"])
+
+# Crear fila de gráficos
+col1, col2 = st.columns([0.3, 0.7])
+
+with col1:
+    fig_global_deltas = px.bar(
+        global_deltas_df,
+        x="Delta €",
+        y="Constructora",
+        color="Constructora",
+        color_discrete_map=colores,
+        orientation="h",
+        title="Deltas globales (€)",
+        height=300
+    )
+    st.plotly_chart(fig_global_deltas, use_container_width=True)
+
+with col2:
+    fig_global_totales = px.bar(
+        global_totales_df,
+        x="Total €",
+        y="Constructora",
+        color="Constructora",
+        color_discrete_map=colores,
+        orientation="h",
+        title="Totales globales (€)",
+        height=300
+    )
+    st.plotly_chart(fig_global_totales, use_container_width=True)
+
+# -----------------------------
 # 📊 GRÁFICOS - CAPÍTULO (col1 = deltas, col2 = totales)
 # -----------------------------
 
